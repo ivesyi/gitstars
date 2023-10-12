@@ -29,7 +29,7 @@ import { BRAND } from '@/constants';
 
 const authURL = `https://github.com/login/oauth/authorize?client_id=${
   import.meta.env.VITE_GITSTARS_CLIENT_ID
-}&redirect_uri=${location.origin}&scope=gist,repo`;
+}&redirect_uri=${location.origin}&scope=public_repo`;
 </script>
 
 <style scoped>
@@ -38,6 +38,6 @@ const authURL = `https://github.com/login/oauth/authorize?client_id=${
 }
 
 .wrapper {
-  background: url(/example-gitstars.png) no-repeat center/contain;
+  background: url(/example-your-stars.png) no-repeat center/contain;
 }
 </style>
